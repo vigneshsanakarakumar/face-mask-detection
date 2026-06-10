@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Model weights (large files — use Git LFS or share separately)
+models/*.h5
+models/*.pb
+models/*.tflite
+
+# Dataset (too large for GitHub)
+dataset/with_mask/
+dataset/without_mask/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Screenshots
+screenshot_*.jpg
+screenshot_*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Trained assets (plots generated during training)
+assets/training_history.png
+assets/confusion_matrix.png
